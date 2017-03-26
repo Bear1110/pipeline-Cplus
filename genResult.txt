@@ -1,0 +1,76 @@
+CC  1 :
+
+Registers: 
+$0: 0	  $1: 8	  $2: 7
+$3: 6	  $4: 3	  $5: 9
+$6: 5	  $7: 2	  $8: 7
+
+Data memory:
+0:       5
+4:       5
+8:       6
+12:      8
+16:      8
+
+IF/ID:
+PC:                   4
+Instruction:          00000000000000000000000000000000
+
+ID/EX :
+ReadData1          0
+ReadData2          0
+sign_ext           0
+Rs                 0
+Rt                 0
+Rd                 0
+Control signals    000000000
+
+EX/MEM :
+ALUout             0
+WriteData          0
+Rt                 0
+Control signals    00000
+
+MEM/WB :
+Read Data          0
+ALUout             0
+Control signals    00
+=================================================
+CC  2 :
+
+Registers: 
+$0: 0	  $1: 8	  $2: 7
+$3: 6	  $4: 3	  $5: 9
+$6: 5	  $7: 2	  $8: 7
+
+Data memory:
+0:       5
+4:       5
+8:       6
+12:      8
+16:      8
+
+IF/ID:
+PC:                   8
+Instruction:          00000000000000000000000000000000
+
+ID/EX :
+ReadData1          0
+ReadData2          0
+sign_ext           0
+Rs                 0
+Rt                 0
+Rd                 0
+Control signals    000000000
+
+EX/MEM :
+ALUout             0
+WriteData          0
+Rt                 0
+Control signals    00000
+
+MEM/WB :
+Read Data          0
+ALUout             0
+Control signals    00
+=================================================
